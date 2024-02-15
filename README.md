@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a system which uses a dataset containing a set of truck images passing over a bridge, and their corresponding sensor data which has recorded various features such as mid-span strains, temperature, etc. over 2000 samples, and tries to predict the number of axles of each truck based on these informations. As of results, the model achieved 52.4% and 62.2% accuracy on train and validation sets respectively. The model consists of three major components, which are:
+This project implements a system which uses a dataset containing a set of truck images passing over a bridge, and their corresponding sensor data which has recorded various features such as mid-span strains, temperature, etc. over more than 3000 samples, and tries to predict the number of axles of each truck based on these informations. As of results, the model achieved 52.4% and 62.2% accuracy on train and validation sets respectively. The model consists of three major components, which are:
 
 
 1. A CNN to embed the pictures' tensors
